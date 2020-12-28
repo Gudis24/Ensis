@@ -1,1 +1,2 @@
-Ensis
+# lookslikeWPtheme
+Theme lookslike for WordPress

@@ -1,0 +1,72 @@
+/*
+Theme Name: Ensis
+Text Domain: ensis
+Version: 1.0
+Requires at least: 5.1
+Requires PHP: 7.+
+Author: LOOKSLIKE.PL SP ZOO
+Author URI: https://lookslike.pl/
+© Do not copy any of this theme files
+*/
+
+
+#cookie-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  transition: all .75s cubic-bezier(.19,1,.22,1);
+  max-width: 100%;
+  text-align: left;
+  color:#fff;
+  background:rgba(26,21,81,0.9);
+  text-align: center;
+  z-index:9;
+  line-height:24px;
+
+}
+#cookie-bar   p{
+    margin:6px 8px;
+    font-size:12px;
+  }
+#cookie-bar--hide {
+  opacity: 0;
+  bottom: -100%;
+}
+
+.cookie-button {
+  color:#fff;
+  border: 0;
+  margin-left:15px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 12px;
+  font-size:12px;
+  letter-spacing: 1px;
+  background: #3030ff;
+}
+@media(min-width:1366px) {
+.sections .contentSide {
+    width: 50%;
+    max-width: 590px;
+}
+}
+@media (max-width:768px) {
+.cookie-button{display: block;margin:8px auto;text-align:center;}
+}
+.profilePhoto img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .patternBar .profilePhoto {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+}
